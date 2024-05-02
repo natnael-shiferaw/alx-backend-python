@@ -3,10 +3,10 @@
 Module containing a function that returns a list of integers
 multiplied by a certain factor.
 """
-from typing import Tuple, List
+from typing import List
 
 
-def zoom_array(lst: Tuple[int], factor: int = 2) -> List[int]:
+def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
     """Returns a list of integers multiplied by a certain factor.
     Args:
         lst (Tuple[int]): A tuple of integers.
@@ -22,7 +22,7 @@ def zoom_array(lst: Tuple[int], factor: int = 2) -> List[int]:
     return zoomed_in
 
 
-array: Tuple[int] = (12, 72, 91)
+array: List[int] = (12, 72, 91)
 
 zoom_2x = zoom_array(array)
 
