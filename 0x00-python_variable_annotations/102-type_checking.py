@@ -7,7 +7,7 @@ from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple[int], factor: int = 2) -> List[int]:
-    """Returns a list of integers multiplied by a certain factor.    
+    """Returns a list of integers multiplied by a certain factor.
     Args:
         lst (Tuple[int]): A tuple of integers.
         factor (int, optional): An integer representing the multiplication
@@ -20,6 +20,7 @@ def zoom_array(lst: Tuple[int], factor: int = 2) -> List[int]:
         for _ in range(factor)
     ]
     return zoomed_in
+
 
 array: Tuple[int] = (12, 72, 91)
 
