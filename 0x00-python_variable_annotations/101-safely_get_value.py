@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Module containing a method for safely retrieving values from a dictionary."""
+"""Module containing a method for safely retrieving
+values from a dictionary."""
 from typing import Mapping, Any, Union, TypeVar, Optional
 
 T = TypeVar('T')
